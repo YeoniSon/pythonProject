@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0%;
 }
-
 .main {
   margin: 20px auto;
   width: 100%;
@@ -12,6 +11,7 @@ header {
   text-align: center;
   background-color: midnightblue;
   height: 200px;
+  font-size: 25pt;
 }
 
 ul {
@@ -24,40 +24,31 @@ a {
 }
 
 #logo {
-  float: none;
-  width: 300px;
+  float: center;
+  width: 800px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+section {
   height: 100px;
-  padding-left: 20px;
-  /* 안 쪽 여백 <-> margin: 바깥쪽 여백 */
-  line-height: 90px;
-  /* 세로 위치 값 */
+  margin: 50px 100px 10px 100px;
+  text-align: center;
 }
 
-nav {
-  float: right;
-  height: 100px;
-  padding-top: 40px;
+footer {
+  margin-top: 70%;
+  height: 80px;
+  background-color: aliceblue;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 50px;
+  color: rgb(83, 185, 219);
+}
+h4{
+  color: rgb(155, 214, 234);
 }
 
-#topMenu {
-  height: 60px;
-}
-
-#topMenu>li {
-  /* 작동이 잘 안될 때는 중간에 > 넣어서 작성하기도 함 */
-  float: right;
-  position: relative;
-}
-
-#topMenu li a {
-  display: block;
-  font-size: 1.1em;
-  /* =16pt */
-  color: rgb(223, 223, 223);
-  font-weight: 600;
-  padding: 20px 60px;
-}
-
-#topMenu li a:hover {
-  color: rgb(238, 216, 118);
+.icons {
+  display: inline-block;
 }
